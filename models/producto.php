@@ -16,3 +16,5 @@ void {
         $this->db->prepare($sql)->execute([$id]);
     }
 }
+
+//si no existe la tabla productos, la creamos
